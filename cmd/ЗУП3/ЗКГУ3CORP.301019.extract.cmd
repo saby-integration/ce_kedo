@@ -1,0 +1,8 @@
+SET PRODUCT=saby_ce_kedo
+SET SUBSYSTEM=áìè3
+SET DESCENT=301019
+SET PLATFORM=80314
+
+cd ../..
+v8unpack.exe -E bin\%PRODUCT%_áäÉì3CORP_%DESCENT%.cfe src\%SUBSYSTEM%áäÉì3CORP --index cmd\%SUBSYSTEM%\index.json --descent %DESCENT%
+pause
