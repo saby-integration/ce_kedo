@@ -12,7 +12,7 @@
   "Catalog": {
   },
   "CommonCommand": {
-    "Saby_ОткрытьФормуНастроек.json": "kedo\\kedo\\base\\CommonCommand\\Saby_ОткрытьФормуНастроек.json",
+    "Saby_ОткрытьФормуНастроек.json": "kedo\\base\\CommonCommand\\Saby_ОткрытьФормуНастроек.json",
     "Saby_ОткрытьФормуНастроек.obj.1c": "kedo\\base\\CommonCommand\\Saby_ОткрытьФормуНастроек.obj.1c",
     "Saby_ОткрытьФормуЗадачи.json": "kedo\\base\\CommonCommand\\Saby_ОткрытьФормуЗадачи.json",
     "Saby_ОткрытьФормуЗадачи.obj.1c": "kedo\\base\\CommonCommand\\Saby_ОткрытьФормуЗадачи.obj.1c",
