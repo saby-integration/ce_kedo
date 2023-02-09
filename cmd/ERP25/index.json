@@ -288,7 +288,7 @@
   "Role": {
   },
   "Subsystem": {
-    "СБИС": {
+    "SABY": {
       "Subsystem.json": "src\\ERP25\\Subsystem\\СБИС\\Subsystem.json",
       "Subsystem": {
         "КЭДО": {

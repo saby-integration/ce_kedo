@@ -1,13 +1,5 @@
 {
   "Области include": {
-    "core_src_ДлительныеОперации": "core_src_ДлительныеОперации_Расширение",
-    "core_src_DataProcessor_СБИС_ОсобенностиПлатформы_МодульОбъекта": "core_src_DataProcessor_СБИС_DataProcessor803",
-    "core_src_DataProcessor_СБИС_Form_Browser_ОсобенностиПлатформы": "core_src_DataProcessor_СБИС_Form_Browser_Form803",
-    "core_src_Helpers_Константы": "core_src_Helpers_Константы803",
-    "core_src_Helpers_FormGetters": "core_src_Helpers_FormGetters803",
-    "base_src_ПроверкаДоступа_ПолучитьРольДляДоступаПоУмолчанию": "base_ЗУП3_ПроверкаДоступа_ПолучитьРольДляДоступаПоУмолчанию",
-    "base_ОбъектыФормыИзПодсистемыКадры": "base_ЗУП3_ОбъектыФормыИзПодсистемыКадры",
-    "core_src_ПроверкаВерсии_ПолучитьИмяФайлаИНомерТекущейВерсии": "core_src_ПроверкаВерсии_ПолучитьИмяФайлаИНомерТекущейВерсииРасширение"
   },
   "Catalog": {
   },
