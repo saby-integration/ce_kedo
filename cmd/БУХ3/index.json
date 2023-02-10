@@ -117,7 +117,7 @@
   "Role": {
   },
   "Subsystem": {
-    "СБИС": {
+    "SABY": {
       "Subsystem.json": "src\\БУХ3\\Subsystem\\СБИС\\Subsystem.json"
     }
   },
