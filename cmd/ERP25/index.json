@@ -289,10 +289,10 @@
   },
   "Subsystem": {
     "SABY": {
-      "Subsystem.json": "src\\ERP25\\Subsystem\\СБИС\\Subsystem.json",
+      "Subsystem.json": "src\\ERP25\\Subsystem\\SABY\\Subsystem.json",
       "Subsystem": {
         "КЭДО": {
-          "Subsystem.json": "src\\ERP25\\Subsystem\\СБИС\\Subsystem\\КЭДО\\Subsystem.json"
+          "Subsystem.json": "kedo\\src\\ERP25\\Subsystem\\SABY\\Subsystem\\КЭДО\\Subsystem.json"
         }
       }
     }
