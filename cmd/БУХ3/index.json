@@ -118,7 +118,7 @@
   },
   "Subsystem": {
     "SABY": {
-      "Subsystem.json": "src\\БУХ3\\Subsystem\\СБИС\\Subsystem.json"
+      "Subsystem.json": "src\\БУХ3\\Subsystem\\SABY\\Subsystem.json"
     }
   },
   "Language": {

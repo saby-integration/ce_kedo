@@ -16,18 +16,18 @@
   },
   "CommonForm": {
     "Saby_ДлительнаяОперация": {
-      "Form.json": "base\\CommonForm\\Saby_ДлительнаяОперация\\Form.json",
-      "Form.form803.json": "base\\CommonForm\\Saby_ДлительнаяОперация\\Form.form803.json",
-      "Form.obj.1c": "base\\CommonForm\\Saby_ДлительнаяОперация\\Form.obj.1c",
-      "Form.params803.json": "base\\CommonForm\\Saby_ДлительнаяОперация\\Form.params803.json",
-      "Form.props803.json": "base\\CommonForm\\Saby_ДлительнаяОперация\\Form.props803.json"
+      "Form.json": "kedo\\base\\CommonForm\\Saby_ДлительнаяОперация\\Form.json",
+      "Form.form803.json": "kedo\\base\\CommonForm\\Saby_ДлительнаяОперация\\Form.form803.json",
+      "Form.obj.1c": "kedo\\base\\CommonForm\\Saby_ДлительнаяОперация\\Form.obj.1c",
+      "Form.params803.json": "kedo\\base\\CommonForm\\Saby_ДлительнаяОперация\\Form.params803.json",
+      "Form.props803.json": "kedo\\base\\CommonForm\\Saby_ДлительнаяОперация\\Form.props803.json"
     },
     "Saby_ПодписатьДокументНовый": {
-      "Form.json": "base\\CommonForm\\Saby_ПодписатьДокументНовый\\Form.json",
-      "Form.form803.json": "base\\CommonForm\\Saby_ПодписатьДокументНовый\\Form.form803.json",
-      "Form.obj.1c": "base\\CommonForm\\Saby_ПодписатьДокументНовый\\Form.obj.1c",
-      "Form.commands803.json": "base\\CommonForm\\Saby_ПодписатьДокументНовый\\Form.commands803.json",
-      "Form.props803.json": "base\\CommonForm\\Saby_ПодписатьДокументНовый\\Form.props803.json"
+      "Form.json": "kedo\\base\\CommonForm\\Saby_ПодписатьДокументНовый\\Form.json",
+      "Form.form803.json": "kedo\\base\\CommonForm\\Saby_ПодписатьДокументНовый\\Form.form803.json",
+      "Form.obj.1c": "kedo\\base\\CommonForm\\Saby_ПодписатьДокументНовый\\Form.obj.1c",
+      "Form.commands803.json": "kedo\\base\\CommonForm\\Saby_ПодписатьДокументНовый\\Form.commands803.json",
+      "Form.props803.json": "kedo\\base\\CommonForm\\Saby_ПодписатьДокументНовый\\Form.props803.json"
     }
   },
   "CommonModule": {
@@ -281,7 +281,7 @@
   },
   "Subsystem": {
     "СБИС": {
-      "Subsystem.json": "src\\КА24\\Subsystem\\СБИС\\Subsystem.json"
+      "Subsystem.json": "src\\КА24\\Subsystem\\SABY\\Subsystem.json"
     }
   },
   "Language": {

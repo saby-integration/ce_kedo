@@ -282,7 +282,7 @@
   },
   "Subsystem": {
     "СБИС": {
-      "Subsystem.json": "src\\ЗУП3\\Subsystem\\СБИС\\Subsystem.json"
+      "Subsystem.json": "src\\ЗУП3\\Subsystem\\SABY\\Subsystem.json"
     }
   },
   "Language": {
