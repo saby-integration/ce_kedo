@@ -1,13 +1,5 @@
 {
   "Области include": {
-    "core_src_ДлительныеОперации": "core_src_ДлительныеОперации_Расширение",
-    "core_src_DataProcessor_СБИС_ОсобенностиПлатформы_МодульОбъекта": "core_src_DataProcessor_СБИС_DataProcessor803",
-    "core_src_DataProcessor_СБИС_Form_Browser_ОсобенностиПлатформы": "core_src_DataProcessor_СБИС_Form_Browser_Form803",
-    "core_src_Helpers_Константы": "core_src_Helpers_Константы803",
-    "core_src_Helpers_FormGetters": "core_src_Helpers_FormGetters803",
-    "base_src_ПроверкаДоступа_ПолучитьРольДляДоступаПоУмолчанию": "base_ERP25_ПроверкаДоступа_ПолучитьРольДляДоступаПоУмолчанию",
-    "base_ОбъектыФормыИзПодсистемыКадры": "base_ERP25_ОбъектыФормыИзПодсистемыКадры",
-    "core_src_ПроверкаВерсии_ПолучитьИмяФайлаИНомерТекущейВерсии": "core_src_ПроверкаВерсии_ПолучитьИмяФайлаИНомерТекущейВерсииРасширение"
   },
   "Catalog": {
   },
@@ -109,178 +101,178 @@
   "DefinedType": {},
   "Document": {
     "БольничныйЛист": {
-      "Document.json": "src\\ERP25\\Document\\БольничныйЛист\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\БольничныйЛист\\Document.json"
     },
     "БронированиеГражданПребывающихВЗапасе": {
-      "Document.json": "src\\ERP25\\Document\\БронированиеГражданПребывающихВЗапасе\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\БронированиеГражданПребывающихВЗапасе\\Document.json"
     },
     "ВводНачальныхОстатковОтпусков": {
-      "Document.json": "src\\ERP25\\Document\\ВводНачальныхОстатковОтпусков\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\ВводНачальныхОстатковОтпусков\\Document.json"
     },
     "ВозвратИзОтпускаПоУходуЗаРебенком": {
-      "Document.json": "src\\ERP25\\Document\\ВозвратИзОтпускаПоУходуЗаРебенком\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\ВозвратИзОтпускаПоУходуЗаРебенком\\Document.json"
     },
     "ВосстановлениеВДолжности": {
-      "Document.json": "src\\ERP25\\Document\\ВосстановлениеВДолжности\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\ВосстановлениеВДолжности\\Document.json"
     },
     "ГрафикОтпусков": {
-      "Document.json": "src\\ERP25\\Document\\ГрафикОтпусков\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\ГрафикОтпусков\\Document.json"
     },
     "ДоговорРаботыУслуги": {
-      "Document.json": "src\\ERP25\\Document\\ДоговорРаботыУслуги\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\ДоговорРаботыУслуги\\Document.json"
     },
     "ИзменениеГрафикаРаботыСписком": {
-      "Document.json": "src\\ERP25\\Document\\ИзменениеГрафикаРаботыСписком\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\ИзменениеГрафикаРаботыСписком\\Document.json"
     },
     "ИзменениеКвалификационногоРазряда": {
-      "Document.json": "src\\ERP25\\Document\\ИзменениеКвалификационногоРазряда\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\ИзменениеКвалификационногоРазряда\\Document.json"
     },
     "ИзменениеМестРаботы": {
-      "Document.json": "src\\ERP25\\Document\\ИзменениеМестРаботы\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\ИзменениеМестРаботы\\Document.json"
     },
     "ИзменениеОплатыТруда": {
-      "Document.json": "src\\ERP25\\Document\\ИзменениеОплатыТруда\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\ИзменениеОплатыТруда\\Document.json"
     },
     "ИзменениеПлановыхНачислений": {
-      "Document.json": "src\\ERP25\\Document\\ИзменениеПлановыхНачислений\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\ИзменениеПлановыхНачислений\\Document.json"
     },
     "ИзменениеУсловийОплатыОтпускаПоУходуЗаРебенком": {
-      "Document.json": "src\\ERP25\\Document\\ИзменениеУсловийОплатыОтпускаПоУходуЗаРебенком\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\ИзменениеУсловийОплатыОтпускаПоУходуЗаРебенком\\Document.json"
     },
     "ИзменениеШтатногоРасписания": {
-      "Document.json": "src\\ERP25\\Document\\ИзменениеШтатногоРасписания\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\ИзменениеШтатногоРасписания\\Document.json"
     },
     "ИндексацияЗаработка": {
-      "Document.json": "src\\ERP25\\Document\\ИндексацияЗаработка\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\ИндексацияЗаработка\\Document.json"
     },
     "ИндексацияШтатногоРасписания": {
-      "Document.json": "src\\ERP25\\Document\\ИндексацияШтатногоРасписания\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\ИндексацияШтатногоРасписания\\Document.json"
     },
     "ИндивидуальныйГрафик": {
-      "Document.json": "src\\ERP25\\Document\\ИндивидуальныйГрафик\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\ИндивидуальныйГрафик\\Document.json"
     },
     "КадровыйПеревод": {
-      "Document.json": "src\\ERP25\\Document\\КадровыйПеревод\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\КадровыйПеревод\\Document.json"
     },
     "КадровыйПереводСписком": {
-      "Document.json": "src\\ERP25\\Document\\КадровыйПереводСписком\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\КадровыйПереводСписком\\Document.json"
     },
     "Командировка": {
-      "Document.json": "src\\ERP25\\Document\\Командировка\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\Командировка\\Document.json"
     },
     "КомандировкиСотрудников": {
-      "Document.json": "src\\ERP25\\Document\\КомандировкиСотрудников\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\КомандировкиСотрудников\\Document.json"
     },
     "НазначениеПодработки": {
-      "Document.json": "src\\ERP25\\Document\\НазначениеПодработки\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\НазначениеПодработки\\Document.json"
     },
     "НачальнаяШтатнаяРасстановка": {
-      "Document.json": "src\\ERP25\\Document\\НачальнаяШтатнаяРасстановка\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\НачальнаяШтатнаяРасстановка\\Document.json"
     },
     "ОплатаПоСреднемуЗаработку": {
-      "Document.json": "src\\ERP25\\Document\\ОплатаПоСреднемуЗаработку\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\ОплатаПоСреднемуЗаработку\\Document.json"
     },
     "ОплатаПоСреднемуЗаработкуСписком": {
-      "Document.json": "src\\ERP25\\Document\\ОплатаПоСреднемуЗаработкуСписком\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\ОплатаПоСреднемуЗаработкуСписком\\Document.json"
     },
     "Отгул": {
-      "Document.json": "src\\ERP25\\Document\\Отгул\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\Отгул\\Document.json"
     },
     "ОтгулСписком": {
-      "Document.json": "src\\ERP25\\Document\\ОтгулСписком\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\ОтгулСписком\\Document.json"
     },
     "ОтменаДоплатыДоСреднегоЗаработка": {
-      "Document.json": "src\\ERP25\\Document\\ОтменаДоплатыДоСреднегоЗаработка\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\ОтменаДоплатыДоСреднегоЗаработка\\Document.json"
     },
     "ОтменаСовмещения": {
-      "Document.json": "src\\ERP25\\Document\\ОтменаСовмещения\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\ОтменаСовмещения\\Document.json"
     },
     "Отпуск": {
-      "Document.json": "src\\ERP25\\Document\\Отпуск\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\Отпуск\\Document.json"
     },
     "ОтпускаСотрудников": {
-      "Document.json": "src\\ERP25\\Document\\ОтпускаСотрудников\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\ОтпускаСотрудников\\Document.json"
     },
     "ОтпускБезСохраненияОплаты": {
-      "Document.json": "src\\ERP25\\Document\\ОтпускБезСохраненияОплаты\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\ОтпускБезСохраненияОплаты\\Document.json"
     },
     "ОтпускБезСохраненияОплатыСписком": {
-      "Document.json": "src\\ERP25\\Document\\ОтпускБезСохраненияОплатыСписком\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\ОтпускБезСохраненияОплатыСписком\\Document.json"
     },
     "ОтпускПоУходуЗаРебенком": {
-      "Document.json": "src\\ERP25\\Document\\ОтпускПоУходуЗаРебенком\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\ОтпускПоУходуЗаРебенком\\Document.json"
     },
     "ПереводКДругомуРаботодателю": {
-      "Document.json": "src\\ERP25\\Document\\ПереводКДругомуРаботодателю\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\ПереводКДругомуРаботодателю\\Document.json"
     },
     "ПереводНаОплатуПоСреднемуЗаработку": {
-      "Document.json": "src\\ERP25\\Document\\ПереводНаОплатуПоСреднемуЗаработку\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\ПереводНаОплатуПоСреднемуЗаработку\\Document.json"
     },
     "ПереводНаРаботуСКоронавирусом": {
-      "Document.json": "src\\ERP25\\Document\\ПереводНаРаботуСКоронавирусом\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\ПереводНаРаботуСКоронавирусом\\Document.json"
     },
     "ПеремещениеВДругоеПодразделение": {
-      "Document.json": "src\\ERP25\\Document\\ПеремещениеВДругоеПодразделение\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\ПеремещениеВДругоеПодразделение\\Document.json"
     },
     "ПеремещениеМеждуТерриториями": {
-      "Document.json": "src\\ERP25\\Document\\ПеремещениеМеждуТерриториями\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\ПеремещениеМеждуТерриториями\\Document.json"
     },
     "ПереносОтпуска": {
-      "Document.json": "src\\ERP25\\Document\\ПереносОтпуска\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\ПереносОтпуска\\Document.json"
     },
     "ПриемНаРаботу": {
-      "Document.json": "src\\ERP25\\Document\\ПриемНаРаботу\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\ПриемНаРаботу\\Document.json"
     },
     "ПриемНаРаботуСписком": {
-      "Document.json": "src\\ERP25\\Document\\ПриемНаРаботуСписком\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\ПриемНаРаботуСписком\\Document.json"
     },
     "ПрогулНеявка": {
-      "Document.json": "src\\ERP25\\Document\\ПрогулНеявка\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\ПрогулНеявка\\Document.json"
     },
     "ПрогулНеявкаСписком": {
-      "Document.json": "src\\ERP25\\Document\\ПрогулНеявкаСписком\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\ПрогулНеявкаСписком\\Document.json"
     },
     "ПродлениеКонтрактаДоговора": {
-      "Document.json": "src\\ERP25\\Document\\ПродлениеКонтрактаДоговора\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\ПродлениеКонтрактаДоговора\\Document.json"
     },
     "ПростойСотрудников": {
-      "Document.json": "src\\ERP25\\Document\\ПростойСотрудников\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\ПростойСотрудников\\Document.json"
     },
     "РаботаВВыходныеИПраздничныеДни": {
-      "Document.json": "src\\ERP25\\Document\\РаботаВВыходныеИПраздничныеДни\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\РаботаВВыходныеИПраздничныеДни\\Document.json"
     },
     "РаботаСверхурочно": {
-      "Document.json": "src\\ERP25\\Document\\РаботаСверхурочно\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\РаботаСверхурочно\\Document.json"
     },
     "РегистрацияПереработок": {
-      "Document.json": "src\\ERP25\\Document\\РегистрацияПереработок\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\РегистрацияПереработок\\Document.json"
     },
     "Совмещение": {
-      "Document.json": "src\\ERP25\\Document\\Совмещение\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\Совмещение\\Document.json"
     },
     "ТабельУчетаРабочегоВремени": {
-      "Document.json": "src\\ERP25\\Document\\ТабельУчетаРабочегоВремени\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\ТабельУчетаРабочегоВремени\\Document.json"
     },
     "УведомлениеОПрекращенииОтпускаПоУходуЗаРебенком": {
-      "Document.json": "src\\ERP25\\Document\\УведомлениеОПрекращенииОтпускаПоУходуЗаРебенком\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\УведомлениеОПрекращенииОтпускаПоУходуЗаРебенком\\Document.json"
     },
     "Увольнение": {
-      "Document.json": "src\\ERP25\\Document\\Увольнение\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\Увольнение\\Document.json"
     },
     "УвольнениеСписком": {
-      "Document.json": "src\\ERP25\\Document\\УвольнениеСписком\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\УвольнениеСписком\\Document.json"
     },
     "УтверждениеШтатногоРасписания": {
-      "Document.json": "src\\ERP25\\Document\\УтверждениеШтатногоРасписания\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\УтверждениеШтатногоРасписания\\Document.json"
     },
     "ХодатайствоОБронированииГражданПребывающихВЗапасе": {
-      "Document.json": "src\\ERP25\\Document\\ХодатайствоОБронированииГражданПребывающихВЗапасе\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\ХодатайствоОБронированииГражданПребывающихВЗапасе\\Document.json"
     },
     "МатериальнаяПомощь": {
-      "Document.json": "src\\ERP25\\Document\\МатериальнаяПомощь\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\МатериальнаяПомощь\\Document.json"
     },
     "Премия": {
-      "Document.json": "src\\ERP25\\Document\\Премия\\Document.json"
+      "Document.json": "kedo\\src\\ERP25\\Document\\Премия\\Document.json"
     }
   },
   "InformationRegister": {
@@ -289,7 +281,6 @@
   },
   "Subsystem": {
     "SABY": {
-      "Subsystem.json": "src\\ERP25\\Subsystem\\SABY\\Subsystem.json",
       "Subsystem": {
         "КЭДО": {
           "Subsystem.json": "kedo\\src\\ERP25\\Subsystem\\SABY\\Subsystem\\КЭДО\\Subsystem.json"
