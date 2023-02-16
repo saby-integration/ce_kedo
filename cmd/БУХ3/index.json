@@ -91,25 +91,25 @@
   },
   "Document": {
     "ПриемНаРаботу": {
-      "Document.json": "src\\БУХ3\\Document\\ПриемНаРаботу\\Document.json"
+      "Document.json": "kedo\\src\\БУХ3\\Document\\ПриемНаРаботу\\Document.json"
     },
     "Увольнение": {
-      "Document.json": "src\\БУХ3\\Document\\Увольнение\\Document.json"
+      "Document.json": "kedo\\src\\БУХ3\\Document\\Увольнение\\Document.json"
     },
     "Отпуск": {
-      "Document.json": "src\\БУХ3\\Document\\Отпуск\\Document.json"
+      "Document.json": "kedo\\src\\БУХ3\\Document\\Отпуск\\Document.json"
     },
     "ОтпускБезСохраненияОплаты": {
-      "Document.json": "src\\БУХ3\\Document\\ОтпускБезСохраненияОплаты\\Document.json"
+      "Document.json": "kedo\\src\\БУХ3\\Document\\ОтпускБезСохраненияОплаты\\Document.json"
     },
     "КадровыйПеревод": {
-      "Document.json": "src\\БУХ3\\Document\\КадровыйПеревод\\Document.json"
+      "Document.json": "kedo\\src\\БУХ3\\Document\\КадровыйПеревод\\Document.json"
     },
     "БольничныйЛист": {
-      "Document.json": "src\\БУХ3\\Document\\БольничныйЛист\\Document.json"
+      "Document.json": "kedo\\src\\БУХ3\\Document\\БольничныйЛист\\Document.json"
     },
     "ДоговорРаботыУслуги": {
-      "Document.json": "src\\БУХ3\\Document\\ДоговорРаботыУслуги\\Document.json"
+      "Document.json": "kedo\\src\\БУХ3\\Document\\ДоговорРаботыУслуги\\Document.json"
     }
   },
   "InformationRegister": {
@@ -117,10 +117,7 @@
   "Role": {
   },
   "Subsystem": {
-    "SABY": {
-      "Subsystem.json": "src\\БУХ3\\Subsystem\\SABY\\Subsystem.json"
-    }
-  },
+ },
   "Language": {
   }
 }
