@@ -280,6 +280,13 @@
   "Role": {
   },
   "Subsystem": {
+    "SABY": {
+      "Subsystem": {
+        "КЭДО": {
+          "Subsystem.json": "kedo\\src\\КА24\\Subsystem\\SABY\\Subsystem\\КЭДО\\Subsystem.json"
+        }
+      }
+    }
   },
   "Language": {
   }

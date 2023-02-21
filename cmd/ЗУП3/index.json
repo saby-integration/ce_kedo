@@ -281,6 +281,13 @@
   "Role": {
   },
   "Subsystem": {
+    "SABY": {
+      "Subsystem": {
+        "КЭДО": {
+          "Subsystem.json": "kedo\\src\\ЗУП3\\Subsystem\\SABY\\Subsystem\\КЭДО\\Subsystem.json"
+        }
+      }
+    }
   },
   "Language": {
   }
