@@ -281,6 +281,21 @@
   "Role": {
   },
   "Subsystem": {
+    "SABY": {
+      "Subsystem": {
+        "КЭДО": {
+          "Subsystem.json": "kedo\\src\\ЗУП3\\Subsystem\\SABY\\Subsystem\\КЭДО\\Subsystem.json"
+        }
+      }
+    }
+  },
+  "Constant": {
+    "Saby_ИспользоватьКЭДО.json": "kedo\\src\\ЗУП3\\Constant\\Saby_ИспользоватьКЭДО.json"
+  },
+  "Enum": {
+  },
+  "FunctionalOption": {
+    "Saby_ИспользоватьКЭДО.json": "kedo\\src\\ЗУП3\\FunctionalOption\\Saby_ИспользоватьКЭДО.json"
   },
   "Language": {
   }
