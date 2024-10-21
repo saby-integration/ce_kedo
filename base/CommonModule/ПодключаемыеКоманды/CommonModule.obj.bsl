@@ -1,0 +1,13 @@
+
+#Область include_core_base_locale_ЛокализацияНазваниеПродукта
+#КонецОбласти
+
+#Область include_base_CommonModule_ИмяМодуляCore
+#КонецОбласти
+
+#Область include_base_CommonModule_ИмяМодуляВстраиваниеВСтандартныеФормы
+#КонецОбласти
+
+#Область include_kedo_base_CommonModule_ПодключаемыеКоманды_SSL
+#КонецОбласти
+
