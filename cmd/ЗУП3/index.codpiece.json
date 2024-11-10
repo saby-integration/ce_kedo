@@ -1,0 +1,282 @@
+{
+  "Области include": {
+    "kedo_src_ПодпискиНаСобытия_РасчетаСреднегоЗаработка": "kedo_src_ЗУП3_СобытиеРасчетаСреднегоЗаработкаCodpiece",
+    "kedo_src_ПодпискиНаСобытия_ВызовРасчетаСреднегоЗаработка": "kedo_src_ЗУП3_ВызовРасчетаСреднегоЗаработка",
+    "core_src_ОбработчикиСобытий_КЭДО_ПриПервомЗапуске": "kedo_src_ОбработчикиСобытий_ПриПервомЗапуске",
+    "core_src_ОбработчикиСобытий_КЭДО_ВызовПриПервомЗапуске": "kedo_src_ОбработчикиСобытий_ВызовПриПервомЗапуске",
+    "core_base_ПереопределениеОбработчиков_ОтчетыДобавлениеЭлементовУправленияЗаглушка": "kedo_base_ПереопределениеОбработчиков_ОтчетыДобавлениеЭлементовУправленияЗаглушка",
+    "core_base_ПереопределениеОбработчиков_ОтчетыОбработчикКомандыЗаглушка": "kedo_base_ПереопределениеОбработчиков_ОтчетыОбработчикКомандыЗаглушка"
+  },
+  "Catalog": {
+    "Должности": {
+      "Catalog.json": "kedo\\src\\ЗУП3\\Catalog\\Должности\\Catalog.json"
+    },
+    "ПодразделенияОрганизаций": {
+      "Catalog.json": "kedo\\src\\ЗУП3\\Catalog\\ПодразделенияОрганизаций\\Catalog.json"
+    },
+    "ШтатноеРасписание": {
+      "Catalog.json": "kedo\\src\\ЗУП3\\Catalog\\ШтатноеРасписание\\Catalog.json"
+    },
+    "ГрафикиРаботыСотрудников": {
+      "Catalog.json": "kedo\\src\\ЗУП3\\Catalog\\ГрафикиРаботыСотрудников\\Catalog.json"
+    }
+  },
+  "CommonCommand": {
+  },
+  "CommandGroup": {
+    "Codpiece_ГруппаНастройки.json": "core\\base\\ГлавнаяСтраница1С\\CommandGroup\\Saby_ГруппаНастройки.codpiece.json"
+  },
+  "CommonForm": {
+  },
+  "CommonModule": {
+    "Codpiece_КомандыОбменаДляФормыКлиент": {
+      "CommonModule.json": "core\\base\\ВстраиваниеВФормы\\Saby_КомандыОбменаДляФормыКлиент\\CommonModule.codpiece.json",
+      "CommonModule.obj.bsl": "core\\base\\ВстраиваниеВФормы\\Saby_КомандыОбменаДляФормыКлиент\\CommonModule.obj.bsl"
+    },
+    "ПодключаемыеКомандыПереопределяемый": {
+      "CommonModule.json": "kedo\\base\\CommonModule\\ПодключаемыеКомандыПереопределяемый\\CommonModule.json",
+      "CommonModule.obj.bsl": "kedo\\base\\CommonModule\\ПодключаемыеКомандыПереопределяемый\\CommonModule.obj.bsl"
+    },
+    "ПодключаемыеКоманды": {
+      "CommonModule.json": "kedo\\base\\CommonModule\\ПодключаемыеКоманды\\CommonModule.json",
+      "CommonModule.obj.bsl": "kedo\\base\\CommonModule\\ПодключаемыеКоманды\\CommonModule.obj.bsl"
+    },
+    "ПодключаемыеКомандыПовтИсп": {
+      "CommonModule.json": "kedo\\base\\CommonModule\\ПодключаемыеКомандыПовтИсп\\CommonModule.json",
+      "CommonModule.obj.bsl": "kedo\\base\\CommonModule\\ПодключаемыеКомандыПовтИсп\\CommonModule.obj.bsl"
+    },
+    "СтандартныеПодсистемыКлиент": {
+      "CommonModule.json": "kedo\\base\\CommonModule\\СтандартныеПодсистемыКлиент\\CommonModule.json",
+      "CommonModule.obj.bsl": "kedo\\base\\CommonModule\\СтандартныеПодсистемыКлиент\\CommonModule.obj.bsl"
+    },
+    "СотрудникиФормыРасширенный": {
+      "CommonModule.json": "kedo\\base\\CommonModule\\СотрудникиФормыРасширенный\\CommonModule.json",
+      "CommonModule.obj.bsl": "kedo\\base\\CommonModule\\СотрудникиФормыРасширенный\\CommonModule.obj.bsl"
+    },
+    "Codpiece_ВстраиваниеВСтандартныеФормы": {
+      "CommonModule.json": "core\\base\\ВстраиваниеВФормы\\Saby_ВстраиваниеВСтандартныеФормы\\CommonModule.codpiece.json",
+      "CommonModule.obj.bsl": "core\\base\\ВстраиваниеВФормы\\Saby_ВстраиваниеВСтандартныеФормы\\CommonModule.obj.bsl"
+   }
+  },
+  "CommonPicture": {
+    "Codpiece_Состояния.bin": "base\\CommonPicture\\Codpiece_Состояния.bin",
+    "Codpiece_Состояния.json": "base\\CommonPicture\\Codpiece_Состояния.json",
+    "Codpiece_Bird.bin": "base\\CommonPicture\\Codpiece_Bird.bin",
+    "Codpiece_Bird.json": "base\\CommonPicture\\Codpiece_Bird.json"
+  },
+  "DataProcessor": {
+  },
+  "DefinedType": {},
+  "Document": {
+    "БольничныйЛист": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\БольничныйЛист\\Document.json"
+    },
+    "БронированиеГражданПребывающихВЗапасе": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\БронированиеГражданПребывающихВЗапасе\\Document.json"
+    },
+    "ВводНачальныхОстатковОтпусков": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\ВводНачальныхОстатковОтпусков\\Document.json"
+    },
+    "ВозвратИзОтпускаПоУходуЗаРебенком": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\ВозвратИзОтпускаПоУходуЗаРебенком\\Document.json"
+    },
+    "ВосстановлениеВДолжности": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\ВосстановлениеВДолжности\\Document.json"
+    },
+    "ГрафикОтпусков": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\ГрафикОтпусков\\Document.json"
+    },
+    "ДоговорРаботыУслуги": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\ДоговорРаботыУслуги\\Document.json"
+    },
+    "ИзменениеГрафикаРаботыСписком": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\ИзменениеГрафикаРаботыСписком\\Document.json"
+    },
+    "ИзменениеКвалификационногоРазряда": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\ИзменениеКвалификационногоРазряда\\Document.json"
+    },
+    "ИзменениеМестРаботы": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\ИзменениеМестРаботы\\Document.json"
+    },
+    "ИзменениеОплатыТруда": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\ИзменениеОплатыТруда\\Document.json"
+    },
+    "ИзменениеПлановыхНачислений": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\ИзменениеПлановыхНачислений\\Document.json"
+    },
+    "ИзменениеУсловийОплатыОтпускаПоУходуЗаРебенком": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\ИзменениеУсловийОплатыОтпускаПоУходуЗаРебенком\\Document.json"
+    },
+    "ИзменениеШтатногоРасписания": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\ИзменениеШтатногоРасписания\\Document.json"
+    },
+    "ИндексацияЗаработка": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\ИндексацияЗаработка\\Document.json"
+    },
+    "ИндексацияШтатногоРасписания": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\ИндексацияШтатногоРасписания\\Document.json"
+    },
+    "ИндивидуальныйГрафик": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\ИндивидуальныйГрафик\\Document.json"
+    },
+    "КадровыйПеревод": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\КадровыйПеревод\\Document.json"
+    },
+    "КадровыйПереводСписком": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\КадровыйПереводСписком\\Document.json"
+    },
+    "Командировка": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\Командировка\\Document.json"
+    },
+    "КомандировкиСотрудников": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\КомандировкиСотрудников\\Document.json"
+    },
+    "МатериальнаяПомощь": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\МатериальнаяПомощь\\Document.json"
+    },
+    "НазначениеПодработки": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\НазначениеПодработки\\Document.json"
+    },
+    "НачальнаяШтатнаяРасстановка": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\НачальнаяШтатнаяРасстановка\\Document.json"
+    },
+    "ОплатаПоСреднемуЗаработку": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\ОплатаПоСреднемуЗаработку\\Document.json"
+    },
+    "ОплатаПоСреднемуЗаработкуСписком": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\ОплатаПоСреднемуЗаработкуСписком\\Document.json"
+    },
+    "Отгул": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\Отгул\\Document.json"
+    },
+    "ОтгулСписком": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\ОтгулСписком\\Document.json"
+    },
+    "ОтменаДоплатыДоСреднегоЗаработка": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\ОтменаДоплатыДоСреднегоЗаработка\\Document.json"
+    },
+    "ОтменаСовмещения": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\ОтменаСовмещения\\Document.json"
+    },
+    "Отпуск": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\Отпуск\\Document.json"
+    },
+    "ОтпускаСотрудников": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\ОтпускаСотрудников\\Document.json"
+    },
+    "ОтпускБезСохраненияОплаты": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\ОтпускБезСохраненияОплаты\\Document.json"
+    },
+    "ОтпускБезСохраненияОплатыСписком": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\ОтпускБезСохраненияОплатыСписком\\Document.json"
+    },
+    "ОтпускПоУходуЗаРебенком": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\ОтпускПоУходуЗаРебенком\\Document.json"
+    },
+    "ПереводКДругомуРаботодателю": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\ПереводКДругомуРаботодателю\\Document.json"
+    },
+    "ПереводНаОплатуПоСреднемуЗаработку": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\ПереводНаОплатуПоСреднемуЗаработку\\Document.json"
+    },
+    "ПереводНаРаботуСКоронавирусом": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\ПереводНаРаботуСКоронавирусом\\Document.json"
+    },
+    "ПеремещениеВДругоеПодразделение": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\ПеремещениеВДругоеПодразделение\\Document.json"
+    },
+    "ПеремещениеМеждуТерриториями": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\ПеремещениеМеждуТерриториями\\Document.json"
+    },
+    "ПереносОтпуска": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\ПереносОтпуска\\Document.json"
+    },
+    "ПриемНаРаботу": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\ПриемНаРаботу\\Document.json"
+    },
+    "ПриемНаРаботуСписком": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\ПриемНаРаботуСписком\\Document.json"
+    },
+    "ПрогулНеявка": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\ПрогулНеявка\\Document.json"
+    },
+    "ПрогулНеявкаСписком": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\ПрогулНеявкаСписком\\Document.json"
+    },
+    "ПродлениеКонтрактаДоговора": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\ПродлениеКонтрактаДоговора\\Document.json"
+    },
+    "ПростойСотрудников": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\ПростойСотрудников\\Document.json"
+    },
+    "РаботаВВыходныеИПраздничныеДни": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\РаботаВВыходныеИПраздничныеДни\\Document.json"
+    },
+    "РаботаСверхурочно": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\РаботаСверхурочно\\Document.json"
+    },
+    "РегистрацияПереработок": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\РегистрацияПереработок\\Document.json"
+    },
+    "Совмещение": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\Совмещение\\Document.json"
+    },
+    "ТабельУчетаРабочегоВремени": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\ТабельУчетаРабочегоВремени\\Document.json"
+    },
+    "УведомлениеОПрекращенииОтпускаПоУходуЗаРебенком": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\УведомлениеОПрекращенииОтпускаПоУходуЗаРебенком\\Document.json"
+    },
+    "Увольнение": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\Увольнение\\Document.json"
+    },
+    "УвольнениеСписком": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\УвольнениеСписком\\Document.json"
+    },
+    "УтверждениеШтатногоРасписания": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\УтверждениеШтатногоРасписания\\Document.json"
+    },
+    "ХодатайствоОБронированииГражданПребывающихВЗапасе": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\ХодатайствоОБронированииГражданПребывающихВЗапасе\\Document.json"
+    },
+    "Премия": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\Премия\\Document.json"
+    },
+    "АктПриемкиВыполненныхРаботОказанныхУслуг": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\АктПриемкиВыполненныхРаботОказанныхУслуг\\Document.json"
+    },
+    "ОплатаДнейУходаЗаДетьмиИнвалидами": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\ОплатаДнейУходаЗаДетьмиИнвалидами\\Document.json"
+    },
+    "НазначениеПлановогоНачисления": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\НазначениеПлановогоНачисления\\Document.json"
+    },
+    "ПрекращениеПлановогоНачисления": {
+      "Document.json": "kedo\\src\\ЗУП3\\Document\\ПрекращениеПлановогоНачисления\\Document.json"
+    }
+  },
+  "InformationRegister": {
+
+  },
+  "Role": {
+  },
+  "Subsystem": {
+    "Codpiece": {
+      "Subsystem": {
+        "КЭДО": {
+          "Subsystem.json": "kedo\\src\\ЗУП3\\Subsystem\\SABY\\Subsystem\\КЭДО\\Subsystem.json"
+        }
+      }
+    }
+  },
+  "Constant": {
+    "Codpiece_ИспользоватьКЭДО.json": "kedo\\src\\ЗУП3\\Constant\\Saby_ИспользоватьКЭДО.codpiece.json"
+  },
+  "Enum": {
+  },
+  "FunctionalOption": {
+    "Codpiece_ИспользоватьКЭДО.json": "kedo\\src\\ЗУП3\\FunctionalOption\\Saby_ИспользоватьКЭДО.codpiece.json"
+  },
+  "Language": {
+  }
+}
