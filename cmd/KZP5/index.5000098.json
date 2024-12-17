@@ -1,0 +1,345 @@
+{
+  "Области include": {
+    "kedo_src_ПодпискиНаСобытия_РасчетаСреднегоЗаработка": "kedo_src_KZP5_СобытиеРасчетаСреднегоЗаработка",
+    "kedo_src_ПодпискиНаСобытия_ВызовРасчетаСреднегоЗаработка": "kedo_src_KZP5_ВызовРасчетаСреднегоЗаработка",
+    "core_src_ОбработчикиСобытий_КЭДО_ПриПервомЗапуске": "kedo_src_ОбработчикиСобытий_ПриПервомЗапуске",
+    "core_src_ОбработчикиСобытий_КЭДО_ВызовПриПервомЗапуске": "kedo_src_ОбработчикиСобытий_ВызовПриПервомЗапуске",
+    "core_base_ПереопределениеОбработчиков_ОтчетыДобавлениеЭлементовУправленияЗаглушка": "kedo_base_ПереопределениеОбработчиков_ОтчетыДобавлениеЭлементовУправленияЗаглушка",
+    "core_base_ПереопределениеОбработчиков_ОтчетыОбработчикКомандыЗаглушка": "kedo_base_ПереопределениеОбработчиков_ОтчетыОбработчикКомандыЗаглушка",
+    "kedo_base_ПодготовкаДанных_РасчетныйЛисток": "kedo_base_KZP5_ПодготовкаДанных_РасчетныйЛисток"
+  },
+  "Catalog": {
+    "Saby_СостоянияОбъектов": {
+      "Catalog.json": "core\\base\\СтатусыSABY\\Saby_СостоянияОбъектов\\Catalog.json",
+      "Catalog.mgr.bsl": "core\\base\\СтатусыSABY\\Saby_СостоянияОбъектов\\Catalog.mgr.bsl"
+    },
+    "Организации": {
+      "Catalog.json": "src\\KZP5\\Catalog\\Организации\\Catalog.json"
+    },
+    "Табели": {
+      "Catalog.json": "src\\KZP5\\Catalog\\Табели\\Catalog.json",
+      "CatalogForm": {
+        "ФормаЭлемента": {
+          "Form.json": "kedo\\src\\KZP5\\Catalog\\Табели\\CatalogForm\\ФормаЭлемента\\Form.json",
+          "Form.elements803.json": "kedo\\src\\KZP5\\Catalog\\Табели\\CatalogForm\\ФормаЭлемента\\Form.elements803.json",
+          "Form.form803.json": "kedo\\src\\KZP5\\Catalog\\Табели\\CatalogForm\\ФормаЭлемента\\Form.form803.json",
+          "Form.obj.bsl": "kedo\\src\\KZP5\\Catalog\\Табели\\CatalogForm\\ФормаЭлемента\\Form.obj.bsl"
+        },
+        "ФормаСписка": {
+          "Form.json": "kedo\\src\\KZP5\\Catalog\\Табели\\CatalogForm\\ФормаСписка\\Form.json",
+          "Form.elements803.json": "kedo\\src\\KZP5\\Catalog\\Табели\\CatalogForm\\ФормаСписка\\Form.elements803.json",
+          "Form.form803.json": "kedo\\src\\KZP5\\Catalog\\Табели\\CatalogForm\\ФормаСписка\\Form.form803.json",
+          "Form.obj.bsl": "kedo\\src\\KZP5\\Catalog\\Табели\\CatalogForm\\ФормаСписка\\Form.obj.bsl"
+        }
+      }
+    },
+    "Сотрудники": {
+      "Catalog.json": "kedo\\src\\KZP5\\Catalog\\Сотрудники\\Catalog.json",
+      "CatalogForm": {
+        "ФормаСписка": {
+          "Form.elements803.json": "kedo\\src\\KZP5\\Catalog\\Сотрудники\\CatalogForm\\ФормаСписка\\Form.elements803.json",
+          "Form.form803.json": "kedo\\src\\KZP5\\Catalog\\Сотрудники\\CatalogForm\\ФормаСписка\\Form.form803.json",
+          "Form.json": "kedo\\src\\KZP5\\Catalog\\Сотрудники\\CatalogForm\\ФормаСписка\\Form.json",
+          "Form.obj.bsl": "kedo\\src\\KZP5\\Catalog\\Сотрудники\\CatalogForm\\ФормаСписка\\Form.obj.bsl"
+        },
+        "ФормаСпискаРасширенная": {
+          "Form.form803.json": "kedo\\src\\KZP5\\Catalog\\Сотрудники\\CatalogForm\\ФормаСпискаРасширенная\\Form.form803.json",
+          "Form.json": "kedo\\src\\KZP5\\Catalog\\Сотрудники\\CatalogForm\\ФормаСпискаРасширенная\\Form.json",
+          "Form.elements803.json": "kedo\\src\\KZP5\\Catalog\\Сотрудники\\CatalogForm\\ФормаСпискаРасширенная\\Form.elements803.json",
+          "Form.obj.bsl": "kedo\\src\\KZP5\\Catalog\\Сотрудники\\CatalogForm\\ФормаСпискаРасширенная\\Form.obj.bsl"
+        }
+      }
+    },
+    "Должности": {
+      "Catalog.json": "src\\KZP5\\Catalog\\Должности\\Catalog.json",
+      "CatalogForm": {
+		"ФормаСписка": {
+          "Form.json": "kedo\\src\\KZP5\\Catalog\\Должности\\Form\\ФормаСписка\\Form.json",
+          "Form.obj.bsl": "kedo\\src\\KZP5\\Catalog\\Должности\\Form\\ФормаСписка\\Form.obj.bsl",
+          "Form.elements803.json": "kedo\\src\\KZP5\\Catalog\\Должности\\Form\\ФормаСписка\\Form.elements803.json",
+          "Form.form803.json": "kedo\\src\\KZP5\\Catalog\\Должности\\Form\\ФормаСписка\\Form.form803.json"
+		}
+	  }
+    },
+    "Подразделения": {
+      "Catalog.json": "src\\KZP5\\Catalog\\Подразделения\\Catalog.json",
+      "CatalogForm": {
+		"ФормаСписка": {
+          "Form.json": "kedo\\src\\KZP5\\Catalog\\Подразделения\\Form\\ФормаСписка\\Form.json",
+          "Form.obj.bsl": "kedo\\src\\KZP5\\Catalog\\Подразделения\\Form\\ФормаСписка\\Form.obj.bsl",
+          "Form.elements803.json": "kedo\\src\\KZP5\\Catalog\\Подразделения\\Form\\ФормаСписка\\Form.elements803.json",
+          "Form.form803.json": "kedo\\src\\KZP5\\Catalog\\Подразделения\\Form\\ФормаСписка\\Form.form803.json"
+		}
+	  }
+    }
+  },
+  "CommonCommand": {
+    "Saby_ОткрытьФормуНастроек.json": "core\\base\\ГлавнаяСтраница1С\\CommonCommand\\Saby_ОткрытьФормуНастроек.json",
+    "Saby_ОткрытьФормуНастроек.obj.bsl": "core\\base\\ГлавнаяСтраница1С\\CommonCommand\\Saby_ОткрытьФормуНастроек.obj.bsl",
+    "Saby_ОткрытьФормуЗадачи.json": "core\\base\\ГлавнаяСтраница1С\\CommonCommand\\Saby_ОткрытьФормуЗадачи.json",
+    "Saby_ОткрытьФормуЗадачи.obj.bsl": "core\\base\\ГлавнаяСтраница1С\\CommonCommand\\Saby_ОткрытьФормуЗадачи.obj.bsl",
+    "Saby_ОткрытьФормуЗадачиWeb.json": "core\\base\\ГлавнаяСтраница1С\\CommonCommand\\Saby_ОткрытьФормуЗадачиWeb.json",
+    "Saby_ОткрытьФормуЗадачиWeb.obj.bsl": "core\\base\\ГлавнаяСтраница1С\\CommonCommand\\Saby_ОткрытьФормуЗадачиWeb.obj.bsl"
+  },
+  "CommandGroup": {
+    "Saby_ГруппаНастройки.json": "core\\base\\ГлавнаяСтраница1С\\CommandGroup\\Saby_ГруппаНастройки.json"
+  },
+  "CommonForm": {
+    "Saby_ДлительнаяОперация": {
+      "Form.json": "kedo\\base\\CommonForm\\Saby_ДлительнаяОперация\\Form.json",
+      "Form.form803.json": "kedo\\base\\CommonForm\\Saby_ДлительнаяОперация\\Form.form803.json",
+      "Form.obj.bsl": "kedo\\base\\CommonForm\\Saby_ДлительнаяОперация\\Form.obj.bsl",
+      "Form.params803.json": "kedo\\base\\CommonForm\\Saby_ДлительнаяОперация\\Form.params803.json",
+      "Form.elements803.json": "kedo\\base\\CommonForm\\Saby_ДлительнаяОперация\\Form.elements803.json",
+      "Form.props803.json": "kedo\\base\\CommonForm\\Saby_ДлительнаяОперация\\Form.props803.json"
+    }
+  },
+  "CommonModule": {
+    "Saby_КомандыОбменаДляФормыКлиент": {
+      "CommonModule.json": "core\\base\\ВстраиваниеВФормы\\Saby_КомандыОбменаДляФормыКлиент\\CommonModule.json",
+      "CommonModule.obj.bsl": "core\\base\\ВстраиваниеВФормы\\Saby_КомандыОбменаДляФормыКлиент\\CommonModule.obj.bsl"
+    },
+	"Saby_ФоновыеЗаданияКлиент": {
+      "CommonModule.json": "kedo\\base\\CommonModule\\Saby_ФоновыеЗаданияКлиент\\CommonModule.json",
+      "CommonModule.obj.bsl": "kedo\\base\\CommonModule\\Saby_ФоновыеЗаданияКлиент\\CommonModule.obj.bsl"
+    },
+	"Saby_ФоновыеЗаданияГлобальный": {
+      "CommonModule.json": "kedo\\base\\CommonModule\\Saby_ФоновыеЗаданияГлобальный\\CommonModule.json",
+      "CommonModule.obj.bsl": "kedo\\base\\CommonModule\\Saby_ФоновыеЗаданияГлобальный\\CommonModule.obj.bsl"
+    },
+    "Saby_ФоновыеЗаданияГлобальный": {
+      "CommonModule.json": "kedo\\base\\CommonModule\\Saby_ФоновыеЗаданияГлобальный\\CommonModule.json",
+      "CommonModule.obj.bsl": "kedo\\base\\CommonModule\\Saby_ФоновыеЗаданияГлобальный\\CommonModule.obj.bsl"
+    },
+    "ПодключаемыеКомандыПереопределяемый": {
+      "CommonModule.json": "kedo\\base\\CommonModule\\ПодключаемыеКомандыПереопределяемый\\CommonModule.json",
+      "CommonModule.obj.bsl": "kedo\\base\\CommonModule\\ПодключаемыеКомандыПереопределяемый\\CommonModule.obj.bsl"
+    },
+    "ПодключаемыеКоманды": {
+      "CommonModule.json": "kedo\\base\\CommonModule\\ПодключаемыеКоманды\\CommonModule.json",
+      "CommonModule.obj.bsl": "kedo\\base\\CommonModule\\ПодключаемыеКоманды\\CommonModule.obj.bsl"
+    },
+    "ПодключаемыеКомандыПовтИсп": {
+      "CommonModule.json": "kedo\\base\\CommonModule\\ПодключаемыеКомандыПовтИсп\\CommonModule.json",
+      "CommonModule.obj.bsl": "kedo\\base\\CommonModule\\ПодключаемыеКомандыПовтИсп\\CommonModule.obj.bsl"
+    },
+    "Saby_ФоновыеЗаданияСервер": {
+      "CommonModule.json": "kedo\\base\\CommonModule\\Saby_ФоновыеЗаданияСервер\\CommonModule.json",
+      "CommonModule.obj.bsl": "kedo\\base\\CommonModule\\Saby_ФоновыеЗаданияСервер\\CommonModule.obj.bsl"
+    },
+    "ОтчетыПереопределяемый": {
+      "CommonModule.json": "kedo\\base\\CommonModule\\ОтчетыПереопределяемый\\CommonModule.json",
+      "CommonModule.obj.bsl": "kedo\\base\\CommonModule\\ОтчетыПереопределяемый\\CommonModule.obj.bsl"
+    },
+    "ОтчетыКлиентПереопределяемый": {
+      "CommonModule.json": "kedo\\base\\CommonModule\\ОтчетыКлиентПереопределяемый\\CommonModule.json",
+      "CommonModule.obj.bsl": "kedo\\base\\CommonModule\\ОтчетыКлиентПереопределяемый\\CommonModule.obj.bsl"
+    },
+    "Saby_ВстраиваниеВСтандартныеФормы": {
+      "CommonModule.json": "core\\base\\ВстраиваниеВФормы\\Saby_ВстраиваниеВСтандартныеФормы\\CommonModule.json",
+      "CommonModule.obj.bsl": "core\\base\\ВстраиваниеВФормы\\Saby_ВстраиваниеВСтандартныеФормы\\CommonModule.obj.bsl"
+   }
+  },
+  "CommonPicture": {
+    "Saby_Ошибка32.bin": "base\\CommonPicture\\Saby_Ошибка32.bin",
+    "Saby_Ошибка32.json": "base\\CommonPicture\\Saby_Ошибка32.json",
+    "Saby_Успешно32.bin": "base\\CommonPicture\\Saby_Успешно32.bin",
+    "Saby_Успешно32.json": "base\\CommonPicture\\Saby_Успешно32.json",
+    "Saby_Скрепка.bin": "base\\CommonPicture\\Saby_Скрепка.bin",
+    "Saby_Скрепка.json": "base\\CommonPicture\\Saby_Скрепка.json",
+    "Saby_ДлительнаяОперация48.bin": "base\\CommonPicture\\Saby_ДлительнаяОперация48.bin",
+    "Saby_ДлительнаяОперация48.json": "base\\CommonPicture\\Saby_ДлительнаяОперация48.json",
+    "Saby_Состояния.bin": "base\\CommonPicture\\Saby_Состояния.bin",
+    "Saby_Состояния.json": "base\\CommonPicture\\Saby_Состояния.json",
+    "Saby_Отступ24х24.bin": "base\\CommonPicture\\Saby_Отступ24х24.bin",
+    "Saby_Отступ24х24.json": "base\\CommonPicture\\Saby_Отступ24х24.json",
+    "Saby_Bird.bin": "base\\CommonPicture\\Saby_Bird.bin",
+    "Saby_Bird.json": "base\\CommonPicture\\Saby_Bird.json",
+    "Saby_SignBlue.bin": "base\\CommonPicture\\Saby_SignBlue.bin",
+    "Saby_SignBlue.json": "base\\CommonPicture\\Saby_SignBlue.json",
+    "Saby_SignOrange.bin": "base\\CommonPicture\\Saby_SignOrange.bin",
+    "Saby_SignOrange.json": "base\\CommonPicture\\Saby_SignOrange.json",
+    "КоллекцияСкрепка.json": "kedo\\src\\KZP5\\CommonPicture\\КоллекцияСкрепка.json",
+    "Скрепка.json": "kedo\\src\\KZP5\\CommonPicture\\Скрепка.json",
+    "Saby_Глобус32.json": "base\\CommonPicture\\Saby_Глобус32.json",
+    "Saby_Глобус32.bin": "base\\CommonPicture\\Saby_Глобус32.bin",
+    "Saby_ТребуетсяКомментарий.json": "base\\CommonPicture\\Saby_ТребуетсяКомментарий.json",
+    "Saby_ТребуетсяКомментарий.bin": "base\\CommonPicture\\Saby_ТребуетсяКомментарий.bin",
+    "Saby_ТребуетсяИсполнитель.json": "base\\CommonPicture\\Saby_ТребуетсяИсполнитель.json",
+    "Saby_ТребуетсяИсполнитель.bin": "base\\CommonPicture\\Saby_ТребуетсяИсполнитель.bin",
+    "Saby_ТребуетсяКомментарийИИсполнителя.json": "base\\CommonPicture\\Saby_ТребуетсяКомментарийИИсполнителя.json",
+    "Saby_ТребуетсяКомментарийИИсполнителя.bin": "base\\CommonPicture\\Saby_ТребуетсяКомментарийИИсполнителя.bin",
+    "Saby_Отступ.json": "base\\CommonPicture\\Saby_Отступ.json",
+    "Saby_Отступ.bin": "base\\CommonPicture\\Saby_Отступ.bin"
+  },
+  "DocumentJournal": {
+    "ВсеДокументы": {
+      "DocumentJournal.json": "kedo\\src\\KZP5\\DocumentJournal\\ВсеДокументы\\DocumentJournal.json",
+      "DocumentJournalForm": {
+        "ФормаСписка": {
+          "Form.elements803.json": "kedo\\src\\KZP5\\DocumentJournal\\ВсеДокументы\\DocumentJournalForm\\ФормаСписка\\Form.elements803.json",
+          "Form.form803.json": "kedo\\src\\KZP5\\DocumentJournal\\ВсеДокументы\\DocumentJournalForm\\ФормаСписка\\Form.form803.json",
+          "Form.json": "kedo\\src\\KZP5\\DocumentJournal\\ВсеДокументы\\DocumentJournalForm\\ФормаСписка\\Form.json",
+          "Form.obj.bsl": "kedo\\src\\KZP5\\DocumentJournal\\ВсеДокументы\\DocumentJournalForm\\ФормаСписка\\Form.obj.bsl"
+        }
+      }
+    },
+    "КадровыеДокументы": {
+      "DocumentJournal.json": "kedo\\src\\KZP5\\DocumentJournal\\КадровыеДокументы\\DocumentJournal.json",
+      "DocumentJournalForm": {
+        "ФормаСписка": {
+          "Form.elements803.json": "kedo\\src\\KZP5\\DocumentJournal\\КадровыеДокументы\\DocumentJournalForm\\ФормаСписка\\Form.elements803.json",
+          "Form.form803.json": "kedo\\src\\KZP5\\DocumentJournal\\КадровыеДокументы\\DocumentJournalForm\\ФормаСписка\\Form.form803.json",
+          "Form.json": "kedo\\src\\KZP5\\DocumentJournal\\КадровыеДокументы\\DocumentJournalForm\\ФормаСписка\\Form.json",
+          "Form.obj.bsl": "kedo\\src\\KZP5\\DocumentJournal\\КадровыеДокументы\\DocumentJournalForm\\ФормаСписка\\Form.obj.bsl"
+        }
+      }
+    },
+    "КадровыеДокументыСотрудников": {
+      "DocumentJournal.json": "kedo\\src\\KZP5\\DocumentJournal\\КадровыеДокументыСотрудников\\DocumentJournal.json",
+      "DocumentJournalForm": {
+        "ФормаСписка": {
+          "Form.elements803.json": "kedo\\src\\KZP5\\DocumentJournal\\КадровыеДокументыСотрудников\\DocumentJournalForm\\ФормаСписка\\Form.elements803.json",
+          "Form.form803.json": "kedo\\src\\KZP5\\DocumentJournal\\КадровыеДокументыСотрудников\\DocumentJournalForm\\ФормаСписка\\Form.form803.json",
+          "Form.json": "kedo\\src\\KZP5\\DocumentJournal\\КадровыеДокументыСотрудников\\DocumentJournalForm\\ФормаСписка\\Form.json",
+          "Form.obj.bsl": "kedo\\src\\KZP5\\DocumentJournal\\КадровыеДокументыСотрудников\\DocumentJournalForm\\ФормаСписка\\Form.obj.bsl"
+        }
+      }
+    },
+    "КадровыеПриказы": {
+      "DocumentJournal.json": "kedo\\src\\KZP5\\DocumentJournal\\КадровыеПриказы\\DocumentJournal.json",
+      "DocumentJournalForm": {
+        "ФормаСписка": {
+          "Form.elements803.json": "kedo\\src\\KZP5\\DocumentJournal\\КадровыеПриказы\\DocumentJournalForm\\ФормаСписка\\Form.elements803.json",
+          "Form.form803.json": "kedo\\src\\KZP5\\DocumentJournal\\КадровыеПриказы\\DocumentJournalForm\\ФормаСписка\\Form.form803.json",
+          "Form.json": "kedo\\src\\KZP5\\DocumentJournal\\КадровыеПриказы\\DocumentJournalForm\\ФормаСписка\\Form.json",
+          "Form.obj.bsl": "kedo\\src\\KZP5\\DocumentJournal\\КадровыеПриказы\\DocumentJournalForm\\ФормаСписка\\Form.obj.bsl"
+        }
+      }
+    },
+    "НачисленияПростые": {
+      "DocumentJournal.json": "kedo\\src\\KZP5\\DocumentJournal\\НачисленияПростые\\DocumentJournal.json",
+      "DocumentJournalForm": {
+        "ФормаСписка": {
+          "Form.elements803.json": "kedo\\src\\KZP5\\DocumentJournal\\НачисленияПростые\\DocumentJournalForm\\ФормаСписка\\Form.elements803.json",
+          "Form.form803.json": "kedo\\src\\KZP5\\DocumentJournal\\НачисленияПростые\\DocumentJournalForm\\ФормаСписка\\Form.form803.json",
+          "Form.json": "kedo\\src\\KZP5\\DocumentJournal\\НачисленияПростые\\DocumentJournalForm\\ФормаСписка\\Form.json",
+          "Form.obj.bsl": "kedo\\src\\KZP5\\DocumentJournal\\НачисленияПростые\\DocumentJournalForm\\ФормаСписка\\Form.obj.bsl"
+        }
+      }
+    },
+    "Отчетность": {
+      "DocumentJournal.json": "kedo\\src\\KZP5\\DocumentJournal\\Отчетность\\DocumentJournal.json",
+      "DocumentJournalForm": {
+        "ФормаСписка": {
+          "Form.elements803.json": "kedo\\src\\KZP5\\DocumentJournal\\Отчетность\\DocumentJournalForm\\ФормаСписка\\Form.elements803.json",
+          "Form.form803.json": "kedo\\src\\KZP5\\DocumentJournal\\Отчетность\\DocumentJournalForm\\ФормаСписка\\Form.form803.json",
+          "Form.json": "kedo\\src\\KZP5\\DocumentJournal\\Отчетность\\DocumentJournalForm\\ФормаСписка\\Form.json",
+          "Form.obj.bsl": "kedo\\src\\KZP5\\DocumentJournal\\Отчетность\\DocumentJournalForm\\ФормаСписка\\Form.obj.bsl"
+        }
+      }
+    }
+  },  
+  "DataProcessor": {
+    "SABY": {
+      "Form": {
+		"ДокументыКЭДО": {
+          "Form.json": "kedo\\base\\Form\\ДокументыКЭДО\\Form.json",
+          "Form.obj.bsl": "kedo\\base\\Form\\ДокументыКЭДО\\Form.obj.bsl",
+          "Form.elements803.json": "kedo\\base\\Form\\ДокументыКЭДО\\Form.elements803.json",
+          "Form.form803.json": "kedo\\base\\Form\\ДокументыКЭДО\\Form.form803.json"
+		}
+      }
+    }
+  },
+  "DefinedType": {},
+  "Document": {
+    "Больничный": {
+      "Document.json": "kedo\\src\\KZP5\\Document\\Больничный\\Document.json"
+    },
+    "ВремяРаботыНаВредныхИТяжелыхУсловияхТруда": {
+      "Document.json": "kedo\\src\\KZP5\\Document\\ВремяРаботыНаВредныхИТяжелыхУсловияхТруда\\Document.json"
+    },
+    "Договор": {
+      "Document.json": "kedo\\src\\KZP5\\Document\\Договор\\Document.json"
+    },
+    "Замещение": {
+      "Document.json": "kedo\\src\\KZP5\\Document\\Замещение\\Document.json"
+    },
+    "Изменения": {
+      "Document.json": "kedo\\src\\KZP5\\Document\\Изменения\\Document.json"
+    },
+    "КадровыйПриказДиспансеризация": {
+      "Document.json": "kedo\\src\\KZP5\\Document\\КадровыйПриказДиспансеризация\\Document.json"
+    },
+    "КадровыйПриказКомандировка": {
+      "Document.json": "kedo\\src\\KZP5\\Document\\КадровыйПриказКомандировка\\Document.json"
+    },
+    "КадровыйПриказОтпуск": {
+      "Document.json": "kedo\\src\\KZP5\\Document\\КадровыйПриказОтпуск\\Document.json"
+    },
+    "КадровыйПриказСверхурочнаяРабота": {
+      "Document.json": "kedo\\src\\KZP5\\Document\\КадровыйПриказСверхурочнаяРабота\\Document.json"
+    },
+    "Прием": {
+      "Document.json": "kedo\\src\\KZP5\\Document\\Прием\\Document.json"
+    },
+    "ПриказНаОтзывИзОтпуска": {
+      "Document.json": "kedo\\src\\KZP5\\Document\\ПриказНаОтзывИзОтпуска\\Document.json"
+    },
+    "ПриказОПоощрении": {
+      "Document.json": "kedo\\src\\KZP5\\Document\\ПриказОПоощрении\\Document.json"
+    },
+    "ПроизвольныйКадровыйПриказ": {
+      "Document.json": "kedo\\src\\KZP5\\Document\\ПроизвольныйКадровыйПриказ\\Document.json"
+    },
+    "Табель": {
+      "Document.json": "kedo\\src\\KZP5\\Document\\Табель\\Document.json"
+    },
+    "ШтатноеРасписание": {
+      "Document.json": "kedo\\src\\KZP5\\Document\\ШтатноеРасписание\\Document.json"
+    },
+    "ГрафикОтпусков": {
+      "Document.json": "kedo\\src\\KZP5\\Document\\ГрафикОтпусков\\Document.json"
+    },
+    "РаботаВВыходныеИПраздничныеДни": {
+      "Document.json": "kedo\\src\\KZP5\\Document\\РаботаВВыходныеИПраздничныеДни\\Document.json"
+    },
+    "ТабельУчетаРабочегоВремени": {
+      "Document.json": "kedo\\src\\KZP5\\Document\\ТабельУчетаРабочегоВремени\\Document.json"
+    },
+    "ОтпускПоУходуЗаРебенком": {
+      "Document.json": "kedo\\src\\KZP5\\Document\\ОтпускПоУходуЗаРебенком\\Document.json"
+    },
+    "Увольнение": {
+      "Document.json": "kedo\\src\\KZP5\\Document\\Увольнение\\Document.json"
+    },
+    "РегистрацияНевыходов": {
+      "Document.json": "kedo\\src\\KZP5\\Document\\РегистрацияНевыходов\\Document.json"
+    }
+  },
+  "InformationRegister": {
+
+  },
+  "Role": {
+  },
+  "Subsystem": {
+    "SABY": {
+      "Subsystem": {
+        "КЭДО": {
+          "Subsystem.json": "kedo\\src\\KZP5\\Subsystem\\SABY\\Subsystem\\КЭДО\\Subsystem.json"
+        }
+      }
+    }
+  },
+  "Constant": {
+    "Saby_ИспользоватьКЭДО.json": "kedo\\src\\KZP5\\Constant\\Saby_ИспользоватьКЭДО.json"
+  },
+  "Enum": {
+  },
+  "FunctionalOption": {
+    "Saby_ИспользоватьКЭДО.json": "kedo\\src\\KZP5\\FunctionalOption\\Saby_ИспользоватьКЭДО.json"
+  },
+  "Language": {
+  }
+}
