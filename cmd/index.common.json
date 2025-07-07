@@ -1,0 +1,66 @@
+{
+    "Области include": {
+            "core_base_Helpers_ПрефиксПродукта": "base_ПрефиксПродукта"
+    },
+    "Catalog": {
+        "СостоянияОбъектов": {
+            "*": "core\\base\\СтатусыSABY\\СостоянияОбъектов"
+        }
+    },
+    "CommandGroup": {
+        "ГруппаНастройки": {
+            "*": "core\\base\\ГлавнаяСтраница1С\\CommandGroup\\ГруппаНастройки"
+        }
+    },
+    "CommonCommand": {
+        "ОткрытьФормуДокументыКЭДО": {
+            "*": "core\\base\\ГлавнаяСтраница1С\\CommonCommand\\ОткрытьФормуДокументыКЭДО"
+        },
+        "ОткрытьФормуЗадачи": {
+            "*": "core\\base\\ГлавнаяСтраница1С\\CommonCommand\\ОткрытьФормуЗадачи"
+        },
+        "ОткрытьФормуЗадачиWeb": {
+            "*": "core\\base\\ГлавнаяСтраница1С\\CommonCommand\\ОткрытьФормуЗадачиWeb"
+        },
+        "ОткрытьФормуНастроек": {
+            "*": "core\\base\\ГлавнаяСтраница1С\\CommonCommand\\ОткрытьФормуНастроек"
+        }
+    },
+    "Constant": {
+        "ИспользоватьКЭДО": {
+            "*": "kedo\\base\\Constant\\ИспользоватьКЭДО"
+        }
+    },
+    "EventSubscription": {
+		"_ПередЗаписьюДокументаСоСреднимЗаработком": {
+			"*": "base\\EventSubscription\\_ПередЗаписьюДокументаСоСреднимЗаработком"
+		}
+    },	
+    "DataProcessor": {
+        "SABY": {
+            "Form": {
+                "ДокументыКЭДО": {
+                    "*": "kedo\\base\\Form\\ДокументыКЭДО"
+                }
+            }
+        }
+    },
+    "FunctionalOption": {
+        "ИспользоватьКЭДО": {
+            "*": "kedo\\base\\FunctionalOption\\ИспользоватьКЭДО"
+        }
+    },
+    "InformationRegister": {
+        "Состояние": {
+            "InformationRegister.mgr.bsl": "core\\base\\СтатусыSABY\\Состояние\\InformationRegister.mgr.bsl",
+            "InformationRegisterForm": {
+                "ФормаЗаписи": {
+                    "*": "core\\base\\СтатусыSABY\\Состояние\\InformationRegisterForm\\ФормаЗаписи"
+                },
+                "ФормаСписка": {
+                    "*": "core\\base\\СтатусыSABY\\Состояние\\InformationRegisterForm\\ФормаСписка"
+                }
+            }
+        }
+    }
+}

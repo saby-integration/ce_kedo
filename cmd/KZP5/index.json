@@ -1,0 +1,188 @@
+{
+  "Области include": {
+    "core_src_ОбработчикиСобытий_КЭДО_ПриПервомЗапуске": "kedo_src_ОбработчикиСобытий_ПриПервомЗапуске",
+    "core_src_ОбработчикиСобытий_КЭДО_ВызовПриПервомЗапуске": "kedo_src_ОбработчикиСобытий_ВызовПриПервомЗапуске",
+    "core_base_ПереопределениеОбработчиков_ОтчетыДобавлениеЭлементовУправленияЗаглушка": "kedo_base_ПереопределениеОбработчиков_ОтчетыДобавлениеЭлементовУправленияЗаглушка",
+    "core_base_ПереопределениеОбработчиков_ОтчетыОбработчикКомандыЗаглушка": "kedo_base_ПереопределениеОбработчиков_ОтчетыОбработчикКомандыЗаглушка",
+    "kedo_base_ПодготовкаДанных_РасчетныйЛисток": "kedo_base_KZP5_ПодготовкаДанных_РасчетныйЛисток"
+  },
+  "Catalog": {
+    "Организации": {
+      "*": "src\\KZP5\\Catalog\\Организации"
+    },
+    "Табели": {
+      "*": "src\\KZP5\\Catalog\\Табели",
+      "CatalogForm": {
+        "ФормаЭлемента": {
+          "*": "kedo\\src\\KZP5\\Catalog\\Табели\\CatalogForm\\ФормаЭлемента",
+          "CatalogForm.obj.bsl": "kedo\\src\\CatalogForm\\ФормаЭлемента\\CatalogForm.obj.bsl"
+        },
+        "ФормаСписка": {
+          "*": "kedo\\src\\KZP5\\Catalog\\Табели\\CatalogForm\\ФормаСписка",
+          "CatalogForm.obj.bsl": "kedo\\src\\CatalogForm\\ФормаСписка\\CatalogForm.obj.bsl"
+        }
+      }
+    },
+    "Сотрудники": {
+      "*": "kedo\\src\\KZP5\\Catalog\\Сотрудники",
+      "CatalogForm": {
+        "ФормаСписка": {
+          "*": "kedo\\src\\KZP5\\Catalog\\Сотрудники\\CatalogForm\\ФормаСписка",
+          "CatalogForm.obj.bsl": "kedo\\src\\CatalogForm\\ФормаСписка\\CatalogForm.obj.bsl"
+        },
+        "ФормаСпискаРасширенная": {
+          "*": "kedo\\src\\KZP5\\Catalog\\Сотрудники\\CatalogForm\\ФормаСпискаРасширенная",
+          "CatalogForm.obj.bsl": "kedo\\src\\CatalogForm\\ФормаСписка\\CatalogForm.obj.bsl"
+        }
+      }
+    },
+    "Должности": {
+      "*": "src\\KZP5\\Catalog\\Должности",
+      "CatalogForm": {
+		"ФормаСписка": {
+          "*": "kedo\\src\\KZP5\\Catalog\\Должности\\Form\\ФормаСписка",
+          "CatalogForm.obj.bsl": "kedo\\src\\CatalogForm\\ФормаСписка\\CatalogForm.obj.bsl"
+		}
+	  }
+    },
+    "Подразделения": {
+      "*": "src\\KZP5\\Catalog\\Подразделения",
+      "CatalogForm": {
+		"ФормаСписка": {
+          "*": "kedo\\src\\KZP5\\Catalog\\Подразделения\\Form\\ФормаСписка",
+          "CatalogForm.obj.bsl": "kedo\\src\\CatalogForm\\ФормаСписка\\CatalogForm.obj.bsl"
+		}
+	  }
+    }
+  },
+  "DocumentJournal": {
+    "ВсеДокументы": {
+      "*": "kedo\\src\\KZP5\\DocumentJournal\\ВсеДокументы",
+      "DocumentJournalForm": {
+        "ФормаСписка": {
+          "*": "kedo\\src\\KZP5\\DocumentJournal\\ВсеДокументы\\DocumentJournalForm\\ФормаСписка",
+          "DocumentJournalForm.obj.bsl": "kedo\\src\\DocumentJournalForm\\ФормаСписка\\DocumentJournalForm.obj.bsl"
+        }
+      }
+    },
+    "КадровыеДокументы": {
+      "*": "kedo\\src\\KZP5\\DocumentJournal\\КадровыеДокументы",
+      "DocumentJournalForm": {
+        "ФормаСписка": {
+          "*": "kedo\\src\\KZP5\\DocumentJournal\\КадровыеДокументы\\DocumentJournalForm\\ФормаСписка",
+          "DocumentJournalForm.obj.bsl": "kedo\\src\\DocumentJournalForm\\ФормаСписка\\DocumentJournalForm.obj.bsl"
+        }
+      }
+    },
+    "КадровыеДокументыСотрудников": {
+      "*": "kedo\\src\\KZP5\\DocumentJournal\\КадровыеДокументыСотрудников",
+      "DocumentJournalForm": {
+        "ФормаСписка": {
+          "*": "kedo\\src\\KZP5\\DocumentJournal\\КадровыеДокументыСотрудников\\DocumentJournalForm\\ФормаСписка",
+          "DocumentJournalForm.obj.bsl": "kedo\\src\\DocumentJournalForm\\ФормаСписка\\DocumentJournalForm.obj.bsl"
+        }
+      }
+    },
+    "КадровыеПриказы": {
+      "*": "kedo\\src\\KZP5\\DocumentJournal\\КадровыеПриказы",
+      "DocumentJournalForm": {
+        "ФормаСписка": {
+          "*": "kedo\\src\\KZP5\\DocumentJournal\\КадровыеПриказы\\DocumentJournalForm\\ФормаСписка",
+          "DocumentJournalForm.obj.bsl": "kedo\\src\\DocumentJournalForm\\ФормаСписка\\DocumentJournalForm.obj.bsl"
+        }
+      }
+    },
+    "НачисленияПростые": {
+      "*": "kedo\\src\\KZP5\\DocumentJournal\\НачисленияПростые",
+      "DocumentJournalForm": {
+        "ФормаСписка": {
+          "*": "kedo\\src\\KZP5\\DocumentJournal\\НачисленияПростые\\DocumentJournalForm\\ФормаСписка",
+          "DocumentJournalForm.obj.bsl": "kedo\\src\\DocumentJournalForm\\ФормаСписка\\DocumentJournalForm.obj.bsl"
+        }
+      }
+    },
+    "Отчетность": {
+      "*": "kedo\\src\\KZP5\\DocumentJournal\\Отчетность",
+      "DocumentJournalForm": {
+        "ФормаСписка": {
+          "*": "kedo\\src\\KZP5\\DocumentJournal\\Отчетность\\DocumentJournalForm\\ФормаСписка",
+          "DocumentJournalForm.obj.bsl": "kedo\\src\\DocumentJournalForm\\ФормаСписка\\DocumentJournalForm.obj.bsl"
+        }
+      }
+    }
+  },  
+  "Document": {
+    "Больничный": {
+      "*": "kedo\\src\\KZP5\\Document\\Больничный"
+    },
+    "ВремяРаботыНаВредныхИТяжелыхУсловияхТруда": {
+      "*": "kedo\\src\\KZP5\\Document\\ВремяРаботыНаВредныхИТяжелыхУсловияхТруда"
+    },
+    "Договор": {
+      "*": "kedo\\src\\KZP5\\Document\\Договор"
+    },
+    "Замещение": {
+      "*": "kedo\\src\\KZP5\\Document\\Замещение"
+    },
+    "Изменения": {
+      "*": "kedo\\src\\KZP5\\Document\\Изменения"
+    },
+    "КадровыйПриказДиспансеризация": {
+      "*": "kedo\\src\\KZP5\\Document\\КадровыйПриказДиспансеризация"
+    },
+    "КадровыйПриказКомандировка": {
+      "*": "kedo\\src\\KZP5\\Document\\КадровыйПриказКомандировка"
+    },
+    "КадровыйПриказОтпуск": {
+      "*": "kedo\\src\\KZP5\\Document\\КадровыйПриказОтпуск"
+    },
+    "КадровыйПриказСверхурочнаяРабота": {
+      "*": "kedo\\src\\KZP5\\Document\\КадровыйПриказСверхурочнаяРабота"
+    },
+    "Прием": {
+      "*": "kedo\\src\\KZP5\\Document\\Прием"
+    },
+    "ПриказНаОтзывИзОтпуска": {
+      "*": "kedo\\src\\KZP5\\Document\\ПриказНаОтзывИзОтпуска"
+    },
+    "ПриказОПоощрении": {
+      "*": "kedo\\src\\KZP5\\Document\\ПриказОПоощрении"
+    },
+    "ПроизвольныйКадровыйПриказ": {
+      "*": "kedo\\src\\KZP5\\Document\\ПроизвольныйКадровыйПриказ"
+    },
+    "Табель": {
+      "*": "kedo\\src\\KZP5\\Document\\Табель"
+    },
+    "ШтатноеРасписание": {
+      "*": "kedo\\src\\KZP5\\Document\\ШтатноеРасписание"
+    },
+    "ГрафикОтпусков": {
+      "*": "kedo\\src\\KZP5\\Document\\ГрафикОтпусков"
+    },
+    "РаботаВВыходныеИПраздничныеДни": {
+      "*": "kedo\\src\\KZP5\\Document\\РаботаВВыходныеИПраздничныеДни"
+    },
+    "ТабельУчетаРабочегоВремени": {
+      "*": "kedo\\src\\KZP5\\Document\\ТабельУчетаРабочегоВремени"
+    },
+    "ОтпускПоУходуЗаРебенком": {
+      "*": "kedo\\src\\KZP5\\Document\\ОтпускПоУходуЗаРебенком"
+    },
+    "Увольнение": {
+      "*": "kedo\\src\\KZP5\\Document\\Увольнение"
+    },
+    "РегистрацияНевыходов": {
+      "*": "kedo\\src\\KZP5\\Document\\РегистрацияНевыходов"
+    }
+  },
+  "Subsystem": {
+    "SABY": {
+      "Subsystem": {
+        "КЭДО": {
+          "*": "kedo\\src\\KZP5\\Subsystem\\SABY\\Subsystem\\КЭДО"
+        }
+      }
+    }
+  }
+}
