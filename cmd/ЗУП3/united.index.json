@@ -1,0 +1,71 @@
+{
+  "Области include": {
+    "core_src_ОбработчикиСобытий_КЭДО_ПриПервомЗапуске": "kedo_src_ОбработчикиСобытий_ПриПервомЗапуске",
+    "core_src_ОбработчикиСобытий_КЭДО_ВызовПриПервомЗапуске": "kedo_src_ОбработчикиСобытий_ВызовПриПервомЗапуске",
+    "core_base_ПереопределениеОбработчиков_ОтчетыДобавлениеЭлементовУправленияЗаглушка": "kedo_base_ПереопределениеОбработчиков_ОтчетыДобавлениеЭлементовУправленияЗаглушка",
+    "core_base_ПереопределениеОбработчиков_ОтчетыОбработчикКомандыЗаглушка": "kedo_base_ПереопределениеОбработчиков_ОтчетыОбработчикКомандыЗаглушка"
+  },
+  "Catalog": {
+  },
+  "CommonModule": {
+    "КомандыОбменаДляФормыКлиент": {
+      "*": "core\\base\\ВстраиваниеВФормы\\КомандыОбменаДляФормыКлиент",
+      "CommonModule.obj.bsl": "core\\base\\ВстраиваниеВФормы\\КомандыОбменаДляФормыКлиент\\CommonModule.obj.bsl"
+    },
+	"ФоновыеЗаданияКлиент": {
+      "*": "core\\base\\ФоновыеЗадания\\ФоновыеЗаданияКлиент",
+      "CommonModule.obj.bsl": "core\\base\\ФоновыеЗадания\\ФоновыеЗаданияКлиент\\CommonModule.obj.bsl"
+    },
+	"ФоновыеЗаданияГлобальный": {
+      "*": "core\\base\\ФоновыеЗадания\\ФоновыеЗаданияГлобальный",
+      "CommonModule.obj.bsl": "core\\base\\ФоновыеЗадания\\ФоновыеЗаданияГлобальный\\CommonModule.obj.bsl"
+    },
+    "ПодключаемыеКомандыПереопределяемый": {
+      "*": "kedo\\base\\CommonModule\\ПодключаемыеКомандыПереопределяемый",
+      "CommonModule.obj.bsl": "kedo\\base\\CommonModule\\ПодключаемыеКомандыПереопределяемый\\CommonModule.obj.bsl"
+    },
+    "ПодключаемыеКоманды": {
+      "*": "kedo\\base\\CommonModule\\ПодключаемыеКоманды",
+      "CommonModule.obj.bsl": "kedo\\base\\CommonModule\\ПодключаемыеКоманды\\CommonModule.obj.bsl"
+    },
+    "ПодключаемыеКомандыПовтИсп": {
+      "*": "kedo\\base\\CommonModule\\ПодключаемыеКомандыПовтИсп",
+      "CommonModule.obj.bsl": "kedo\\base\\CommonModule\\ПодключаемыеКомандыПовтИсп\\CommonModule.obj.bsl"
+    },
+    "ФоновыеЗаданияСервер": {
+      "*": "core\\base\\ФоновыеЗадания\\ФоновыеЗаданияСервер",
+      "CommonModule.obj.bsl": "core\\base\\ФоновыеЗадания\\ФоновыеЗаданияСервер\\CommonModule.obj.bsl"
+    },
+    "СтандартныеПодсистемыКлиент": {
+      "*": "kedo\\base\\CommonModule\\СтандартныеПодсистемыКлиент",
+      "CommonModule.obj.bsl": "kedo\\base\\CommonModule\\СтандартныеПодсистемыКлиент\\CommonModule.obj.bsl"
+    },
+    "ОтчетыПереопределяемый": {
+      "*": "kedo\\base\\CommonModule\\ОтчетыПереопределяемый",
+      "CommonModule.obj.bsl": "kedo\\base\\CommonModule\\ОтчетыПереопределяемый\\CommonModule.obj.bsl"
+    },
+    "ОтчетыКлиентПереопределяемый": {
+      "*": "kedo\\base\\CommonModule\\ОтчетыКлиентПереопределяемый",
+      "CommonModule.obj.bsl": "kedo\\base\\CommonModule\\ОтчетыКлиентПереопределяемый\\CommonModule.obj.bsl"
+    },
+    "СотрудникиФормыРасширенный": {
+      "*": "kedo\\base\\CommonModule\\СотрудникиФормыРасширенный",
+      "CommonModule.obj.bsl": "kedo\\base\\CommonModule\\СотрудникиФормыРасширенный\\CommonModule.obj.bsl"
+    },
+    "ВстраиваниеВСтандартныеФормы": {
+      "*": "core\\base\\ВстраиваниеВФормы\\ВстраиваниеВСтандартныеФормы",
+      "CommonModule.obj.bsl": "core\\base\\ВстраиваниеВФормы\\ВстраиваниеВСтандартныеФормы\\CommonModule.obj.bsl"
+   }
+  },
+  "Document": {
+  },
+  "Subsystem": {
+    "SABY": {
+      "Subsystem": {
+        "КЭДО": {
+          "*": "kedo\\src\\ЗУП3\\Subsystem\\SABY\\Subsystem\\КЭДО"
+        }
+      }
+    }
+  }
+}
