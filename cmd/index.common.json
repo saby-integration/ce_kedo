@@ -1,0 +1,63 @@
+{
+    "Области include": {
+            "core_base_Helpers_ПрефиксПродукта": "base_ПрефиксПродукта",
+			"core_base_Авторизация_ПослеАвторизации": "base_Авторизация_ПослеАвторизации"
+    },
+    "Catalog": {
+        "СостоянияОбъектов": {
+            "*": "core\\base\\СтатусыSABY\\СостоянияОбъектов"
+        }
+    },
+    "CommandGroup": {
+        "ГруппаНастройки": {
+            "*": "core\\base\\ГлавнаяСтраница1С\\CommandGroup\\ГруппаНастройки"
+        }
+    },
+    "CommonCommand": {
+        "ОткрытьФормуЗадачи": {
+            "*": "core\\base\\ГлавнаяСтраница1С\\CommonCommand\\ОткрытьФормуЗадачи"
+        },
+        "ОткрытьФормуЗадачиWeb": {
+            "*": "core\\base\\ГлавнаяСтраница1С\\CommonCommand\\ОткрытьФормуЗадачиWeb"
+        },
+        "ОткрытьФормуНастроек": {
+            "*": "core\\base\\ГлавнаяСтраница1С\\CommonCommand\\ОткрытьФормуНастроек"
+        },
+        "ОткрытьФормуКандидаты": {
+            "*": "core\\base\\ГлавнаяСтраница1С\\CommonCommand\\ОткрытьФормуКандидаты"
+        }
+    },
+    "Constant": {
+        "ИспользоватьКЭДО": {
+            "*": "kedo\\base\\Constant\\ИспользоватьКЭДО"
+        }
+    },
+    "EventSubscription": {
+		"_ПередЗаписьюДокументаСоСреднимЗаработком": {
+			"*": "base\\EventSubscription\\_ПередЗаписьюДокументаСоСреднимЗаработком"
+		}
+    },	
+    "DataProcessor": {
+        "SABY": {
+            "Form": {
+                "ДокументыКЭДО": {
+                    "*": "kedo\\base\\Form\\ДокументыКЭДО"
+                },
+                "ПодборПерсонала": {
+                    "*": "kedo\\base\\ПодборПерсонала",
+                    "Form.id.json": "src\\DataProcessor\\SABY\\Form\\ПодборПерсонала\\Form.id.json"
+                },
+				"ИнформационноеОкно": {   
+					"*": "kedo\\base\\Form\\ИнформационноеОкно",
+                    "Form.id.json": "src\\DataProcessor\\SABY\\Form\\ИнформационноеОкно\\Form.id.json"
+				}
+            },
+			 "Template": {
+				 "НовоеРасширениеSEDO": {
+					"*": "kedo\\base\\Template\\НовоеРасширениеSEDO", 
+                    "Template.id.json": "src\\DataProcessor\\SABY\\Template\\НовоеРасширениеSEDO\\Template.id.json"	
+				}
+			}	
+        }
+    }
+}
