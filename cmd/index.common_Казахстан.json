@@ -1,0 +1,10 @@
+{
+    "CommandGroup": {
+        "ГруппаНастройки": {
+            "CommandGroup.json": "core\\base\\ГлавнаяСтраница1С\\CommandGroup\\ГруппаНастройки\\CommandGroup_Казахстан.json"
+        },
+        "ГруппаНастройкиWeb": {
+            "CommandGroup.json": "core\\base\\ГлавнаяСтраница1С\\CommandGroup\\ГруппаНастройкиWeb\\CommandGroup_Казахстан.json"
+        }
+    }
+}
