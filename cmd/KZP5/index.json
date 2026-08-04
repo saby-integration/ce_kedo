@@ -1,0 +1,119 @@
+{
+  "Области include": {
+    "core_src_ОбработчикиСобытий_КЭДО_ПриПервомЗапуске": "kedo_src_ОбработчикиСобытий_ПриПервомЗапуске",
+    "core_src_ОбработчикиСобытий_КЭДО_ВызовПриПервомЗапуске": "kedo_src_ОбработчикиСобытий_ВызовПриПервомЗапуске",
+    "core_base_ВстраиваниеВФормы_ПереопределениеОбработчиков_ОтчетыДобавлениеЭлементовУправленияЗаглушка": "kedo_base_ПереопределениеОбработчиков_ОтчетыДобавлениеЭлементовУправленияЗаглушка",
+    "core_base_ВстраиваниеВФормы_ПереопределениеОбработчиков_ОтчетыОбработчикКомандыЗаглушка": "kedo_base_ПереопределениеОбработчиков_ОтчетыОбработчикКомандыЗаглушка",
+    "kedo_base_ПодготовкаДанных_РасчетныйЛисток": "kedo_base_KZP5_ПодготовкаДанных_РасчетныйЛисток"
+  },
+  "Catalog": {
+    "Сотрудники": {
+      "*": "kedo\\src\\KZP5\\Catalog\\Сотрудники",
+      "CatalogForm": {
+        "ФормаСписка": {
+          "*": "kedo\\src\\KZP5\\Catalog\\Сотрудники\\CatalogForm\\ФормаСписка",
+          "CatalogForm.obj.bsl": "kedo\\src\\CatalogForm\\ФормаСписка\\CatalogForm.obj.bsl"
+        },
+        "ФормаСпискаРасширенная": {
+          "*": "kedo\\src\\KZP5\\Catalog\\Сотрудники\\CatalogForm\\ФормаСпискаРасширенная",
+          "CatalogForm.obj.bsl": "kedo\\src\\CatalogForm\\ФормаСписка\\CatalogForm.obj.bsl"
+        }
+      }
+    },
+	"Должности": {
+      "*": "src\\KZP5\\Catalog\\Должности",
+      "CatalogForm": {
+        "ФормаСписка": {
+          "*": "kedo\\src\\KZP5\\Catalog\\Должности\\Form\\ФормаСписка",
+          "CatalogForm.obj.bsl": "kedo\\src\\CatalogForm\\ФормаСписка\\CatalogFormKZP5.obj.bsl"
+        }
+      }
+    },
+    "Подразделения": {
+      "*": "src\\KZP5\\Catalog\\Подразделения",
+      "CatalogForm": {
+        "ФормаСписка": {
+          "*": "kedo\\src\\KZP5\\Catalog\\Подразделения\\Form\\ФормаСписка",
+          "CatalogForm.obj.bsl": "kedo\\src\\CatalogForm\\ФормаСписка\\CatalogFormKZP5.obj.bsl"
+        }
+      }
+    }
+  },
+  "DocumentJournal": {
+    "ВсеДокументы": {
+      "*": "kedo\\src\\KZP5\\DocumentJournal\\ВсеДокументы",
+      "DocumentJournalForm": {
+        "ФормаСписка": {
+          "*": "kedo\\src\\KZP5\\DocumentJournal\\ВсеДокументы\\DocumentJournalForm\\ФормаСписка",
+          "DocumentJournalForm.obj.bsl": "kedo\\src\\DocumentJournalForm\\ФормаСписка\\DocumentJournalForm.obj.bsl"
+        }
+      }
+    },
+    "КадровыеДокументы": {
+      "*": "kedo\\src\\KZP5\\DocumentJournal\\КадровыеДокументы",
+      "DocumentJournalForm": {
+        "ФормаСписка": {
+          "*": "kedo\\src\\KZP5\\DocumentJournal\\КадровыеДокументы\\DocumentJournalForm\\ФормаСписка",
+          "DocumentJournalForm.obj.bsl": "kedo\\src\\DocumentJournalForm\\ФормаСписка\\DocumentJournalForm.obj.bsl"
+        }
+      }
+    },
+    "КадровыеДокументыСотрудников": {
+      "*": "kedo\\src\\KZP5\\DocumentJournal\\КадровыеДокументыСотрудников",
+      "DocumentJournalForm": {
+        "ФормаСписка": {
+          "*": "kedo\\src\\KZP5\\DocumentJournal\\КадровыеДокументыСотрудников\\DocumentJournalForm\\ФормаСписка",
+          "DocumentJournalForm.obj.bsl": "kedo\\src\\DocumentJournalForm\\ФормаСписка\\DocumentJournalForm.obj.bsl"
+        }
+      }
+    },
+    "КадровыеПриказы": {
+      "*": "kedo\\src\\KZP5\\DocumentJournal\\КадровыеПриказы",
+      "DocumentJournalForm": {
+        "ФормаСписка": {
+          "*": "kedo\\src\\KZP5\\DocumentJournal\\КадровыеПриказы\\DocumentJournalForm\\ФормаСписка",
+          "DocumentJournalForm.obj.bsl": "kedo\\src\\DocumentJournalForm\\ФормаСписка\\DocumentJournalForm.obj.bsl"
+        }
+      }
+    },
+    "НачисленияПростые": {
+      "*": "kedo\\src\\KZP5\\DocumentJournal\\НачисленияПростые",
+      "DocumentJournalForm": {
+        "ФормаСписка": {
+          "*": "kedo\\src\\KZP5\\DocumentJournal\\НачисленияПростые\\DocumentJournalForm\\ФормаСписка",
+          "DocumentJournalForm.obj.bsl": "kedo\\src\\DocumentJournalForm\\ФормаСписка\\DocumentJournalForm.obj.bsl"
+        }
+      }
+    },
+    "Отчетность": {
+      "*": "kedo\\src\\KZP5\\DocumentJournal\\Отчетность",
+      "DocumentJournalForm": {
+        "ФормаСписка": {
+          "*": "kedo\\src\\KZP5\\DocumentJournal\\Отчетность\\DocumentJournalForm\\ФормаСписка",
+          "DocumentJournalForm.obj.bsl": "kedo\\src\\DocumentJournalForm\\ФормаСписка\\DocumentJournalForm.obj.bsl"
+        }
+      }
+    }
+  },  
+  "Document": {
+  },    
+  "Constant": {
+        "ИспользоватьКЭДО": {
+            "Constant.id.json":     "kedo\\src\\KZP5\\Constant\\ИспользоватьКЭДО\\Constant.id.json"
+        }
+    },
+    "FunctionalOption": {
+        "ИспользоватьКЭДО": {
+            "*": "kedo\\src\\KZP5\\FunctionalOption\\ИспользоватьКЭДО"
+        }
+    },
+  "Subsystem": {
+    "SABY": {
+      "Subsystem": {
+        "КЭДО": {
+          "*": "kedo\\src\\KZP5\\Subsystem\\SABY\\Subsystem\\КЭДО"
+        }
+      }
+    }
+  }
+}
