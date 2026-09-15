@@ -1,0 +1,21 @@
+{
+    "Области include": {
+		"core_base_Авторизация_Демо_ДемоПродуктыКЭДО": "kedo_base_Авторизация_Демо_ДемоПродуктыКЭДО"
+    },
+    "Catalog": {
+    },
+    "CommandGroup": {
+    },
+    "CommonCommand": {
+    },
+    "Constant": {
+    },
+    "EventSubscription": {
+    },	
+	"Template": {
+		"Демо": {
+			"*": "core\\base\\БазовыеКомпоненты\\Template\\Демо",
+			"Template.id.json": "src\\DataProcessor\\SABY\\Template\\Демо\\Template.id.json"
+		}
+	}
+}
